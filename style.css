@@ -1,0 +1,32 @@
+h1 {
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+}
+
+html {
+    background-color: #DDF2FD;
+}
+.dog-pic {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 25px;
+    font-family: 'Single Day', cursive;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100 px auto;
+    text-align: center;
+}
+
+.author {
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Mulish', sans-serif;
+}
